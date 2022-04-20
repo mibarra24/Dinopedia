@@ -1,0 +1,16 @@
+body {
+    width: 90%;
+    margin: 0 auto;}
+
+#content {overflow: auto;}#nav,#feature,#footer {
+        margin: 1%;}
+       .colum1, .colum2, .colum3 {
+        width: 31.3%;
+        float: left;
+        margin: 1%;
+    }
+    .colum3 {
+
+    }
+
+}
