@@ -1,8 +1,15 @@
+*{font-family: 'Heebo', sans-serif;
+}
+
 body {
     width: 90%;
-    margin: 0 auto;}
+    margin: 0 auto;
+    background-color: #37c871;
+}
 
-#content {overflow: auto;}
+#content {
+    overflow: auto;
+}
 
 #nav,#feature,#footer {
         margin: 1%;}
@@ -12,19 +19,27 @@ body {
         float: left;
         margin: 1%;}
 
-.colum3 { margin-right: 0%;}
+.colum3 { 
+    margin-right: 0%;
+}
 
 li{
         display: inline;
         padding: 0.5em;}
 
 #nav,#footer{
-    background-color: #efefef;
+    background-color: #ffff;
     padding: 0.5em 0;}
 
 #feature, .article {
-    height: 10em;
+    height: 30em;
     margin-bottom: 1em;
-    background-color: #efefef;}
+    background-color: #fff;}
+
+#feature {
+    background-image: url(./Assets/trex90.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
     
 
