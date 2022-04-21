@@ -2,24 +2,29 @@ body {
     width: 90%;
     margin: 0 auto;}
 
-#content {overflow: auto;}#nav,#feature,#footer {
+#content {overflow: auto;}
+
+#nav,#feature,#footer {
         margin: 1%;}
-       .colum1, .colum2, .colum3 {
+
+.colum1, .colum2, .colum3 {
         width: 31.3%;
         float: left;
-        margin: 1%;
-    }
-    .colum3 { margin-right: 0%;}
-    li{
+        margin: 1%;}
+
+.colum3 { margin-right: 0%;}
+
+li{
         display: inline;
         padding: 0.5em;}
+
 #nav,#footer{
     background-color: #efefef;
-    padding: 0.5em;}
+    padding: 0.5em 0;}
+
 #feature, .article {
     height: 10em;
     margin-bottom: 1em;
-    background-color: #efefef;
-}
+    background-color: #efefef;}
     
 
