@@ -9,7 +9,17 @@ body {
         float: left;
         margin: 1%;
     }
-    .colum3 {
-
-    }
+    .colum3 { margin-right: 0%;}
+    li{
+        display: inline;
+        padding: 0.5em;}
+#nav,#footer{
+    background-color: #efefef;
+    padding: 0.5em;}
+#feature, .article {
+    height: 10em;
+    margin-bottom: 1em;
+    background-color: #efefef;
+}
+    
 
