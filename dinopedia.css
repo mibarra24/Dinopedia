@@ -47,5 +47,13 @@ p {
     margin-left: 4ch;
 }
 
+#content1 {
+    border: 5px solid #1c2e4a;
+    padding: 20px;
+    width: 275px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;}
+
     
 
