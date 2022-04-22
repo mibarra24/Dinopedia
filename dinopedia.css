@@ -25,14 +25,14 @@ body {
 
 li{
         display: inline;
-        padding: 0.5em;}
+        padding: 4em;}
 
 #nav,#footer{
     background-color: #ffff;
     padding: 0.5em 0;}
 
 #feature, .article {
-    height: 30em;
+    height: 31em;
     margin-bottom: 1em;
     background-color: #fff;}
 
@@ -42,6 +42,10 @@ li{
     background-repeat: no-repeat;
 }
 
+p {
+    margin-right: 4ch;
+    margin-left: 4ch;
+}
 
     
 
