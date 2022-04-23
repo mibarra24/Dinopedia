@@ -14,21 +14,32 @@ body {
 #nav,#feature,#footer {
         margin: 1%;}
 
-.colum1, .colum2, .colum3 {
+.column1, .column2, .column3 {
         width: 31.3%;
         float: left;
-        margin: 1%;}
+        margin: 1%;
+    }
 
-.colum3 { 
+.column1{
+    border: 5px solid #1c2e4a;
+    padding: 20px;
+    width: 275px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+}
+
+.column3 { 
     margin-right: 0%;
 }
 
 li{
         display: inline;
-        padding: 4em;}
+        padding: 5em;}
 
 #nav,#footer{
-    background-color: #ffff;
+    background-color: transparent;
     padding: 0.5em 0;}
 
 #feature, .article {
@@ -47,13 +58,7 @@ p {
     margin-left: 4ch;
 }
 
-#content1 {
-    border: 5px solid #1c2e4a;
-    padding: 20px;
-    width: 275px;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;}
+
 
     
 
