@@ -1,6 +1,10 @@
 *{font-family: 'Heebo', sans-serif;
 }
 
+.logo{
+    width: 150px;
+}
+
 body {
     width: 90%;
     margin: 0 auto;
