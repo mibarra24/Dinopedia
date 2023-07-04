@@ -5,29 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dinopedia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@200;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="pages.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">DINOPEDIA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" href="index.html">Home</a>
+              <a class="nav-link" href="#">Dinolist</a>
+              <a class="nav-link" aria-current="page" href="/Pages/mesozoicera.html">Mesozoic Era</a>
+              <a class="nav-link" href="#">About</a>
+              <a class="nav-link disabled">Disabled</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <br>
     <center><h1>MESOZOIC ERA</h1></center>
     <br>
-    <center><h2>ABOUT THE ERA</h2></center>
-    <p>The Mesozoic Era is the second-to-last era of Earth's geological history, lasting from about 252 to 66 million years ago, comprising the Triassic, Jurassic and Cretaceous Periods. It is characterized by the dominance of archosaurian reptiles, like the dinosaurs; an abundance of conifers and ferns; a hot greenhouse climate; and the tectonic break-up of Pangaea. The Mesozoic is the middle of the three eras since complex life evolved: the Paleozoic, the Mesozoic, and the Cenozoic.</p>
-    <p>The era began in the wake of the Permian-Triassic extinction event, the largest well-documented mass extinction in Earth's history, and ended with the Cretaceous–Paleogene extinction event, another mass extinction whose victims included the non-avian dinosaurs, pterosaurs, mosasaurs, and plesiosaurs.</p>
-    <center><h2>SPECIES IN THE MESOZOIC</h2></center>
-    <p>Dinosaurs first appeared in the Mid-Triassic, and became the dominant terrestrial vertebrates in the Late Triassic or Early Jurassic, occupying this position for about 150 or 135 million years until their demise at the end of the Cretaceous. Archaic birds appeared in the Jurassic, having evolved from a branch of theropod dinosaurs, then true toothless birds appeared in the Cretaceous. The first mammals also appeared during the Mesozoic, but would remain small—less than 15 kg (33 lb)—until the Cenozoic. The flowering plants appeared in the early Cretaceous Period and would rapidly diversify throughout the end of the era, replacing conifers and other gymnosperms as the dominant group of plants.</p>
-    <center><h2>NAMING</h2></center>
-    <p>The phrase "Age of Reptiles" was introduced by the 19th century paleontologist Gideon Mantell who viewed it as dominated by diapsids such as Iguanodon, Megalosaurus, Plesiosaurus, and Pterodactylus.</p>
-    <p>The current name was proposed in 1840 by the British geologist John Phillips (1800–1874). "Mesozoic" literally means 'middle life', deriving from the Greek prefix meso- (μεσο- 'between') and zōon (ζῷον 'animal, living being').[3][4] In this way, the Mesozoic is comparable to the Cenozoic (lit. 'new life') and Paleozoic ('old life') Eras as well as the Proterozoic ('earlier life') Eon.</p>
-    <p>The Mesozoic Era was originally described as the "secondary" era, following the "primary" (Paleozoic), and preceding the Tertiary.</p>
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            ABOUT THE ERA
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+                The Mesozoic Era is the second-to-last era of Earth's geological history, lasting from about 252 to 66 million years ago, comprising the Triassic, Jurassic and Cretaceous Periods. It is characterized by the dominance of archosaurian reptiles, like the dinosaurs; an abundance of conifers and ferns; a hot greenhouse climate; and the tectonic break-up of Pangaea. The Mesozoic is the middle of the three eras since complex life evolved: the Paleozoic, the Mesozoic, and the Cenozoic.
+                The era began in the wake of the Permian-Triassic extinction event, the largest well-documented mass extinction in Earth's history, and ended with the Cretaceous–Paleogene extinction event, another mass extinction whose victims included the non-avian dinosaurs, pterosaurs, mosasaurs, and plesiosaurs.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                SPECIES IN THE MESOZOIC
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+            <div class="accordion-body">
+                Dinosaurs first appeared in the Mid-Triassic, and became the dominant terrestrial vertebrates in the Late Triassic or Early Jurassic, occupying this position for about 150 or 135 million years until their demise at the end of the Cretaceous. Archaic birds appeared in the Jurassic, having evolved from a branch of theropod dinosaurs, then true toothless birds appeared in the Cretaceous. The first mammals also appeared during the Mesozoic, but would remain small—less than 15 kg (33 lb)—until the Cenozoic. The flowering plants appeared in the early Cretaceous Period and would rapidly diversify throughout the end of the era, replacing conifers and other gymnosperms as the dominant group of plants.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+             NAMING
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body">
+                The phrase "Age of Reptiles" was introduced by the 19th century paleontologist Gideon Mantell who viewed it as dominated by diapsids such as Iguanodon, Megalosaurus, Plesiosaurus, and Pterodactylus. The current name was proposed in 1840 by the British geologist John Phillips (1800–1874). "Mesozoic" literally means 'middle life', deriving from the Greek prefix meso- (μεσο- 'between') and zōon (ζῷον 'animal, living being').[3][4] In this way, the Mesozoic is comparable to the Cenozoic (lit. 'new life') and Paleozoic ('old life') Eras as well as the Proterozoic ('earlier life') Eon. The Mesozoic Era was originally described as the "secondary" era, following the "primary" (Paleozoic), and preceding the Tertiary.
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
     <center><h2>GEOLOGIC PERIODS</h2></center>
+    <br>
     <p>Following the Paleozoic, the Mesozoic extended roughly 186 million years, from 251.902 to 66 million years ago when the Cenozoic Era began. This time frame is separated into three geologic periods. From oldest to youngest:</p>
-    <ul>
-        <li><a href="triassic.html">Triassic (251.902 to 201.4 million years ago)</a></li>
-        <li><a href="jurassic.html">Jurassic (201.4 to 145 million years ago)</a></li>
-        <li><a href="cretaceous.html">Cretaceous (145 to 66 million years ago)</a></li>
-    </ul>
+    
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Triassic</h5>
+          <p class="card-text">Triassic (251.902 to 201.4 million years ago)</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Jurassic</h5>
+          <p class="card-text">Jurassic (201.4 to 145 million years ago)</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cretaceous</h5>
+          <p class="card-text">Cretaceous (145 to 66 million years ago)</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
