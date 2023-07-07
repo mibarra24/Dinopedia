@@ -9,12 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@200;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="dinopedia.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">DINOPEDIA</a>
+          <a class="navbar-brand" href="./index.html">
+            <img src="./assets/logo.jpg" width="130" alt="Dinopedia">
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -29,6 +31,45 @@
           </div>
         </div>
       </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/tyranosaurus.jpg" class="d-block w-100" alt="carousel1">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Tyranosaurus Rex</h1>
+              <h5>Meet the most famous and terrifying dinosaur.</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/therizinosaurus.jpg" class="d-block w-100" alt="carousel2">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Therizinosaurus</h1>
+              <h5>An incredibly unique dinosaur</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/pachycephalosaurus.jpg" class="d-block w-100" alt="carousel3">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Therizinosaurus</h1>
+              <h5>Scientists still cannot answer this question. Omnivore or herbivore?</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     <h1></h1>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>

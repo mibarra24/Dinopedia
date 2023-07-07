@@ -1,0 +1,11 @@
+body {
+    background-color: green;
+}
+
+.navbar navbar-expand-lg bg-body-tertiary {
+    background-color: white;
+}
+
+.d-block w-100 {
+    width: 200px;
+}
